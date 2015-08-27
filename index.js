@@ -1,5 +1,3 @@
-import {Manipulate} from './bower_components/manipulate/app.js'
-
 var Hijack = (function(){
   function before(fnString, beforeFn){
     // These should be some error checking 
@@ -24,5 +22,3 @@ var Hijack = (function(){
     before: before
   }
 })()
-
-export Hijack

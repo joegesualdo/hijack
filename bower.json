@@ -1,6 +1,6 @@
 {
   "name": "hijack",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Hijack functions",
   "main": "index.js",
   "authors": [
