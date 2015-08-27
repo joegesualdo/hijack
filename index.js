@@ -5,9 +5,10 @@ var Hijack = (function(){
     Manipulate.redefineFunction(fnString, function(){
       beforeFn();
       executeFunctionByName(fnString, window);
-    })
+    }, window)
   }
 
+  // TODO: Make this a seperate module
   function executeFunctionByName(functionName, context /*, args */) {
     var args = [].slice.call(arguments).splice(2);
     var namespaces = functionName.split(".");
