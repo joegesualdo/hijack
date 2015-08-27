@@ -1,0 +1,26 @@
+{
+  "name": "manipulate",
+  "description": "Manipulate things in javascript",
+  "main": "app.js",
+  "authors": [
+    "Joe Gesualdo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/joegesualdo/manipulate",
+  "_release": "ca7e83663f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ca7e83663f3acc9dae2d5dd0457eb9c4e4689be1"
+  },
+  "_source": "git://github.com/joegesualdo/manipulate.git",
+  "_target": "*",
+  "_originalSource": "manipulate"
+}

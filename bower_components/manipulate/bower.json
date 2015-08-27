@@ -1,8 +1,8 @@
 {
-  "name": "hijack",
+  "name": "manipulate",
   "version": "0.0.3",
-  "description": "Hijack functions",
-  "main": "index.js",
+  "description": "Manipulate things in javascript",
+  "main": "app.js",
   "authors": [
     "Joe Gesualdo"
   ],
@@ -13,8 +13,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "manipulate": "*"
-  }
+  ]
 }
