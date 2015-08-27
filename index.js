@@ -3,9 +3,8 @@ var Hijack = (function(){
     // These should be some error checking 
     
     Manipulate.redefineFunction(fnString, function(){
-        beforeFn();
-        executeFunctionByName(fnString, window)
-      }
+      beforeFn();
+      executeFunctionByName(fnString, window);
     })
   }
 
