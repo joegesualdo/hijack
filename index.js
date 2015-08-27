@@ -10,6 +10,6 @@ var Hijack = (function(){
     }
   }
   return {
-    before: before;
+    before: before
   }
 })()
