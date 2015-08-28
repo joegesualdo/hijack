@@ -8,8 +8,8 @@ var Hijack = (function(){
     
     originalFn = getFunctionByName(fnString, window)
     Manipulate.redefineFunction(fnString, function(){
-      beforeFn();
-      originalFn.apply(window, arguments);
+      beforeFn(this, arguments);
+      originalFn.apply(this, arguments);
       // executeFunctionByName(fnString, window);
     }, window)
   }
